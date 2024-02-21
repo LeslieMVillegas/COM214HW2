@@ -25,6 +25,11 @@ Here is a list of HTML elements used in this website:
 - `<ul>`, `<ol>`, `<li>`: Defines unordered and ordered lists, and list items.
 - `<a>`: Defines a hyperlink.
 - `<img>`: Embeds an image in the document.
+- '<table>: Creates a table in HTML
+- '<tr>: Defines a row in an HTML table
+- '<th>: Define a header cell in an HTML table
+- '<td>: Defines a standard data cell in an HTML table
+- '<br>: Insert a single line break in the text. 
 
 
 This README file provides a brief overview of the Bookmark Search Assistant Research Website, its context, topic selection, and a list of HTML elements used. For more information, please visit the website itself - file:///C:/Users/Leslie%20Villegas/Downloads/HTML_I_examples/index.html 
