@@ -5,100 +5,209 @@
     <meta title="Bookmark Search Assistant">
     <meta viewport = "width=device-width, initial-scale=1.0">
     <title>Bookmark Search Assistant</title>
+
+    <style>
+        /* attempt for a div */
+        .container {
+            width: 90%; 
+            margin: 0 auto; 
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .box {
+            background-color: #edc2d9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Goal of this project: Bookmark Search Assistant</h1>
-    <paragraph> Organize how information is presented to
-        users to create a better framework for how
-        we search. <br>
-        <br>
-        Create a Chrome extension to search through
-        your archives in your bookmark, which tend to be websites or online resources one wishes to return to, visited
-        beto remind users about that
-        information before moving on to the next
-        points of search and results. </paragraph>
 
-    <h2>Current Problem</h2>
+    <!-- This is Div 1 -->
+    <div class="container">
+        <h1>Goal of this project: Bookmark Search Assistant</h1>
+        <div class="box">
+            <p>Organize how information is presented to
+                users to create a better framework for how
+                we search. <br>
+                <br>
+                Create a Chrome extension to search through
+                your archives in your bookmark, which tend to be websites or online resources one wishes to return to, visited
+                beto remind users about that
+                information before moving on to the next
+                points of search and results.</p>
+        </div>
+    </div>
 
-    <img src="Messy Bookmarks.png" width="460" height="345">
 
-    <ul style=“list-style-type:square”> 
-        <li> Search results may vary even with identical search terms. </li> 
-        <li> Search time varies for finding relevant information. </li>
-        <li> Information overload. </li>
-        <li> Bookmarks are out of sight </li> </ul>
+    <style>
+        /*set background color - CSS styling component 1*/ 
+        body {
+          background-color: lavender;
+        }
+        
+        /*set text color for different headers -  CSS styling component 2*/
+        h1 {
+          color: maroon;
+          margin-left: 0px;
+        } 
 
-    <img src="TooManyBookmarks.png" width="460" height="345">
-    
+        h2 {
+          color: maroon;
+          margin-left: 0px;
+        } 
 
-    <h3> Relevant Reseaerch: Search Through Bookmarks</h3>
-    <paragraph> Users commonly report problems in refinding important websites.
-        To address this, some create Bookmarks (also called web
-        Favorites) to improve the refinding of these websites. Previous
-        research notes that these Bookmarks are rarely used. However,
-        these prior studies did not systematically observe and quantify
-        the frequency and success of Bookmark retrievals, or compare
-        their success with other retrieval methods. The results suggest
-        that unless the Bookmarks were highly visible, the participants did
-        not use them. Furthermore, for websites that the users had visited,
-        bookmarked websites were not better retrieved than those that
-        had not been bookmarked.</paragraph>
-    
-    <br> <br>
+        h3 {
+          color: maroon;
+          margin-left: 0px;
+        } 
 
+        /*set color for links based on user interaction -  CSS styling component 3*/
+
+        /* unvisited link */
+        a:link {
+        color: blue;
+        }
+
+        /* visited link */
+        a:visited {
+        color: green;
+        }
+
+        /* mouse over link */
+        a:hover {
+        color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+        color: blue;
+        }
+
+    </style>
+
+<body>
+    <!-- This is Div 2 -->
+    <div class="container">
+        <h2>Current Problem</h2>
+        <div class="box">
+            <img src="Messy Bookmarks.png" width="550" height="345">
+
+            <ul style=“list-style-type:square”> 
+                <li> Search results may vary even with identical search terms. </li> 
+                <li> Search time varies for finding relevant information. </li>
+                <li> Information overload. </li>
+                <li> Bookmarks are out of sight </li> </ul>
+
+            <img src="TooManyBookmarks.png" width="550" height="345">
+        </div>
+    </div>
+
+
+    <!-- This is Div 3-->
+    <div class="container">
+        <h3> Relevant Reseaerch: Search Through Bookmarks</h3>
+        <div class="box">
+            <paragraph> Users commonly report problems in refinding important websites.
+                To address this, some create Bookmarks (also called web
+                Favorites) to improve the refinding of these websites. Previous
+                research notes that these Bookmarks are rarely used. However,
+                these prior studies did not systematically observe and quantify
+                the frequency and success of Bookmark retrievals, or compare
+                their success with other retrieval methods. The results suggest
+                that unless the Bookmarks were highly visible, the participants did
+                not use them. Furthermore, for websites that the users had visited,
+                bookmarked websites were not better retrieved than those that
+                had not been bookmarked.</paragraph>
+            <br> <br>
+
+            <a href="https://journals.sagepub.com/doi/full/10.1177/0961000620949652" target="_blank">
+                Out of sight and out of mind: Bookmarks are created but not used
+            </a>
+            <br> <br>
+            By Ofer Bergman, Steve
+            Whittaker, and Joel Schooler
+            <br> <br>
+        </div>
+    </div>
+
+    <!-- This is Div 4-->
     <paragraph> 
-        <a href="https://journals.sagepub.com/doi/full/10.1177/0961000620949652" target="_blank">
+        <div class="container">
+            <h1>Useful Resources</h1>
+            <div class="box">
+                <table> 
+                    <style type="text/css">
+                        table{border:1px solid rgb(95, 0, 139);border-collapse:collapse;text-align:center;}
+                    </style>
 
-            Out of sight and out of mind: Bookmarks are created but not used
-        </a>
-        
-        <br> <br>
-        By Ofer Bergman, Steve
-        Whittaker, and Joel Schooler
-    
-    
-    <table> 
+                    <!-- This is row 1: titles of each column-->
+                    <tr>
+                        <th> UXUI Case Studies</th>
+                        <th> Research Articles</th>
+                        <th> Tutorials & Tools</th>
+                    </tr>
+                    
+                    <!-- This is Row 2 -->
+                    <tr>
+                        <td><a href="https://bootcamp.uxdesign.cc/bookmarking-but-its-actually-useful-12a65c49034a" target="_blank">
+                            Bookmarking but actually useful (＾＾)  </a></td>
+                        <td><a href="https://dl.acm.org/doi/abs/10.1145/1056808.1056978" target="_blank">
+                            An evaluation of landmarks for re-finding information on the web</a></td>
+                        <td><a href="https://linkishio.medium.com/10-best-chrome-bookmark-managers-d20919afc02a" target="_blank">
+                            15 Best Chrome Bookmark Managers</a></td>
+                    </tr>
 
-        <style type="text/css">
-            table{border:1px solid rgb(95, 0, 139);border-collapse:collapse;text-align:center;}
-        </style>
+                    <!-- This is Row 3 -->
+                    <tr>
+                        <td><a href="https://medium.com/@juliustanoey/google-chrome-bookmark-ux-case-study-6b492832e81b" target="_blank">
+                            Google Chrome Bookmark — UX Case Study </a> </td>
+                        <td><a href="https://philarchive.org/archive/SULCBB" target="_blank">
+                            Cloud Based Bookmark Manager </a></td>
+                        <td><a href="https://developer.chrome.com/docs/extensions/get-started" target="_blank">
+                            Chrome For Developers </a> </td>
+                    </tr>
 
-        <tr>
-            <th> UXUI Case Studies</th>
-            <th> Research Articles</th>
-            <th> Tutorials & Tools</th>
-        </tr>
-        <tr>
-            <td><a href="https://bootcamp.uxdesign.cc/bookmarking-but-its-actually-useful-12a65c49034a" target="_blank">
-                Bookmarking but actually useful (＾＾)  </a></td>
-            <td><a href="https://dl.acm.org/doi/abs/10.1145/1056808.1056978" target="_blank">
-                An evaluation of landmarks for re-finding information on the web</a></td>
-            <td><a href="https://linkishio.medium.com/10-best-chrome-bookmark-managers-d20919afc02a" target="_blank">
-                15 Best Chrome Bookmark Managers</a></td>
-        </tr>
-        <tr>
-            <td><a href="https://medium.com/@juliustanoey/google-chrome-bookmark-ux-case-study-6b492832e81b" target="_blank">
-                Google Chrome Bookmark — UX Case Study </a> </td>
-            <td><a href="https://philarchive.org/archive/SULCBB" target="_blank">
-                Cloud Based Bookmark Manager </a></td>
-            <td><a href="https://developer.chrome.com/docs/extensions/get-started" target="_blank">
-                Chrome For Developers </a> </td>
-        </tr>
-
-        <tr>
-            <td><a href="https://uxdesign.cc/google-chrome-case-study-bookmarks-83a32b7c754" target="_blank">
-                Google Chrome Bookmark — UX Case Study </a> </td>
-            <td> <a href="https://bookmarkos.com/ultimate-chrome-bookmarks-guide/" target="_blank">
-                Ultimate Chrome Bookmarks Guide </a> </td>
-            <td><a href="https://support.google.com/chrome/a/answer/2714278?hl=en" target="_blank">
-                Create and publish custom Chrome apps & extensions </a> </td>
-        </tr>
-
-
-
-    </table>
-        
-    
+                    <!-- This is Row 4 -->
+                    <tr>
+                        <td><a href="https://uxdesign.cc/google-chrome-case-study-bookmarks-83a32b7c754" target="_blank">
+                            Google Chrome Bookmark — UX Case Study </a> </td>
+                        <td> <a href="https://bookmarkos.com/ultimate-chrome-bookmarks-guide/" target="_blank">
+                            Ultimate Chrome Bookmarks Guide </a> </td>
+                        <td><a href="https://support.google.com/chrome/a/answer/2714278?hl=en" target="_blank">
+                            Create and publish custom Chrome apps & extensions </a> </td>
+                    </tr>
+                </table>
+            </div>
+        </div> 
+    <br><br>    
     </paragraph>
+
+    <!-- This is Div 5 -->
+    <div class="container">
+        <h4>Work in Progress for the Project: </h1>
+        <div class="box">
+        <!-- This is the new element allows me to show the progress of my research progress to those
+        interested in learning more about it. I found this element 
+        at https://dev.to/ruppysuppy/7-cool-html-elements-nobody-uses-330c.-->
+            <meter
+            min="0"
+            max="100"
+            low="25"
+            high="75"
+            optimum="80"
+            value="63"
+            ></meter>
+
+        </div>
+    </div>
+
+
 </body>
+
 </html>
